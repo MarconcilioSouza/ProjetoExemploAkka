@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executor", "Executor", "{C8AA16ED-BA11-49E3-8853-36DFD19BE8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeitorPassagensProcessadasBatch", "Executor\LeitorPassagensProcessadasBatch.csproj", "{D8DD36FC-4A5C-42BE-9CFF-EC10BD94AEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeitorPassagensProcessadasBatch.CommandQuery", "CommandQuery\LeitorPassagensProcessadasBatch.CommandQuery.csproj", "{14CB98AB-002B-41E0-80DF-DD512617CDD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8DD36FC-4A5C-42BE-9CFF-EC10BD94AEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DD36FC-4A5C-42BE-9CFF-EC10BD94AEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DD36FC-4A5C-42BE-9CFF-EC10BD94AEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DD36FC-4A5C-42BE-9CFF-EC10BD94AEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CB98AB-002B-41E0-80DF-DD512617CDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CB98AB-002B-41E0-80DF-DD512617CDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CB98AB-002B-41E0-80DF-DD512617CDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CB98AB-002B-41E0-80DF-DD512617CDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8DD36FC-4A5C-42BE-9CFF-EC10BD94AEF7} = {C8AA16ED-BA11-49E3-8853-36DFD19BE8B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB1B1EBC-FFC8-4F85-BD63-0F9F87F9C08A}
+	EndGlobalSection
+EndGlobal

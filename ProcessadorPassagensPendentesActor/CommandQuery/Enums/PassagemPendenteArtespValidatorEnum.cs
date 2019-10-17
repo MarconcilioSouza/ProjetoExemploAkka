@@ -1,0 +1,31 @@
+﻿namespace ProcessadorPassagensActors.CommandQuery.Enums
+{
+    public enum PassagemPendenteArtespValidatorEnum
+    {
+        EReenvio,
+        EManual,
+        ValidarConcessionaria,
+        ValidarConcessionariaConectSys,
+        ValidarMotivoReenvioNaoInformado,
+        ValidarReenvioSemNumeroDeReenvio,
+        ValidarMotivoManualNaoInformado,
+        ValidarPassagemManualSemValorBloqueadoComMotivoDiferenteDeBloqueado,
+        ValidarFlagPassagemAutomatica,
+        ValidarMotivoSemValor,
+        ValidarCodigoPraca,
+        ValidarIdentificadorPassagem,
+        ValidarGrupoIsento,
+        ValidarExistenciaTag,
+        ValidarSePossuiAdesao,
+        ValidarPraca,
+        ValidarPlaca,
+        ValidarCategoriaUtilizada,
+        ValidarCategoriaPassagem,
+        ValidarVeiculoIsento,
+        ValidarGrupoIsentoDadosInvalidos,
+        ValidarGrupoIsentoMotivoSemValorNaoInformado,
+        ValidarConcessionariaAposCarregarDados,
+        ValidarPassagemManualSemTag,
+        ValidarPista,
+    }
+}

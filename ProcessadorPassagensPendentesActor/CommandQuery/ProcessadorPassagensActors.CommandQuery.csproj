@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9118FAA8-236B-48DD-943D-93C347842165}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcessadorPassagensActors.CommandQuery</RootNamespace>
+    <AssemblyName>ProcessadorPassagensActors.CommandQuery</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Cadastros.Conveniados.Backend.CommonQuery, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Cadastros.Conveniados.Backend.CommonQuery.1.0.99\lib\ConectCar.Cadastros.Conveniados.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Cadastros.Domain, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Cadastros.Domain.1.0.99\lib\ConectCar.Cadastros.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.1.0.99\lib\ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Comercial.Domain, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Comercial.Domain.1.0.99\lib\ConectCar.Comercial.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Backend.CommonQuery, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Backend.CommonQuery.1.0.98\lib\ConectCar.Framework.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Domain, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Domain.1.0.98\lib\ConectCar.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Api, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Api.1.0.32\lib\ConectCar.Framework.Infrastructure.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cache.Redis, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cache.Redis.1.0.32\lib\ConectCar.Framework.Infrastructure.Cache.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Ado, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Ado.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Handlers, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Handlers.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Handlers.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Rest, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Rest.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.ServiceBus, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.ServiceBus.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Ado, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Ado.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.DocumentDB, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.DocumentDB.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.DocumentDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Rest, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Rest.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.ServiceBus, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.ServiceBus.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.TableDB, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.TableDB.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.TableDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ddd, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ddd.1.0.32\lib\ConectCar.Framework.Infrastructure.Ddd.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Errors, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Errors.1.0.32\lib\ConectCar.Framework.Infrastructure.Errors.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ioc, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ioc.1.0.32\lib\ConectCar.Framework.Infrastructure.Ioc.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ioc.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ioc.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Ioc.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ioc.Validation, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ioc.Validation.1.0.32\lib\ConectCar.Framework.Infrastructure.Ioc.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Json, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Json.1.0.32\lib\ConectCar.Framework.Infrastructure.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Log, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Log.1.0.32\lib\ConectCar.Framework.Infrastructure.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.WebApi, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.WebApi.1.0.32\lib\ConectCar.Framework.Infrastructure.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Transacoes.Domain, Version=1.1.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Transacoes.Domain.1.1.14\lib\ConectCar.Transacoes.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.SimpleCRUD, Version=1.13.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.SimpleCRUD.1.13.0\lib\net45\Dapper.SimpleCRUD.dll</HintPath>
+    </Reference>
+    <Reference Include="DryIoc, Version=2.11.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DryIoc.dll.2.11.6\lib\net45\DryIoc.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.1.0\lib\net40\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.7.1.1\lib\net45\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Jil, Version=2.15.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Jil.2.15.4\lib\net45\Jil.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.4.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Documents.Client, Version=1.17.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Azure.DocumentDB.1.17.0\lib\net45\Microsoft.Azure.Documents.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.EventFlow.Core, Version=1.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.EventFlow.Core.1.1.6\lib\net451\Microsoft.Diagnostics.EventFlow.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging, Version=1.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging.1.1.3\lib\net451\Microsoft.Diagnostics.EventFlow.Inputs.MicrosoftLogging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.EventFlow.Outputs.ApplicationInsights, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.EventFlow.Outputs.ApplicationInsights.1.2.0\lib\net451\Microsoft.Diagnostics.EventFlow.Outputs.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.EventFlow.Outputs.SqlTable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.EventFlow.Outputs.SqlTable.1.0.0\lib\Microsoft.Diagnostics.EventFlow.Outputs.SqlTable.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.1.1.1\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.1.1.1\lib\netstandard1.1\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.FileExtensions.1.1.1\lib\net451\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Json.1.1.1\lib\net451\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.1\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Physical.1.1.0\lib\net451\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileSystemGlobbing.1.1.0\lib\net45\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.1.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ServiceBus, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAzure.ServiceBus.4.1.3\lib\net45\Microsoft.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=6.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Polly, Version=5.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Polly.5.3.1\lib\net45\Polly.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Sigil, Version=4.7.0.0, Culture=neutral, PublicKeyToken=2d06c3494341c8ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sigil.4.7.0\lib\net45\Sigil.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.3.1\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Primitives.4.3.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.TypeConverter.4.3.0\lib\net462\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.3.0\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Dataflow, Version=4.6.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Dataflow.4.7.0\lib\portable-net45+win8+wpa81\System.Threading.Tasks.Dataflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="Validation, Version=2.3.0.0, Culture=neutral, PublicKeyToken=2fc06f0d701809a7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Validation.2.3.7\lib\dotnet\Validation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bo\CalcularRepasseBo.cs" />
+    <Compile Include="Bo\CalcularRepasseEdiBo.cs" />
+    <Compile Include="Bo\CalcularRepasseParkBo.cs" />
+    <Compile Include="Bo\DefinirCategoriaUtilizadaArtesp.cs" />
+    <Compile Include="Bo\DefinirCategoriaUtilizadaEdiBo.cs" />
+    <Compile Include="Bo\RepasseBase.cs" />
+    <Compile Include="Bo\UltimaTransacaoPassagemDto.cs" />
+    <Compile Include="Bo\EstornoBo.cs" />
+    <Compile Include="Cache\Cacheinitializer.cs" />
+    <Compile Include="Cache\FeriadoCacheRepository.cs" />
+    <Compile Include="Cache\CategoriaVeiculoCacheRepository.cs" />
+    <Compile Include="Cache\CommonCacheDataSourceProvider.cs" />
+    <Compile Include="Cache\ConfiguracaoSistemaCacheRepository.cs" />
+    <Compile Include="Cache\PistaPracaConveniadoArtespCacheRepository.cs" />
+    <Compile Include="Commands\Artesp\PassagemInvalidaArtespTopicCommand.cs" />
+    <Compile Include="Commands\Artesp\PassagemAprovadaArtespTopicCommand.cs" />
+    <Compile Include="Commands\Artesp\PassagemReprovadaArtespTopicCommand.cs" />
+    <Compile Include="Commands\Edi\PassagemAprovadaEDITopicCommand.cs" />
+    <Compile Include="Commands\Edi\PassagemReprovadaEDITopicCommand.cs" />
+    <Compile Include="Commands\Park\PassagemAprovadaParkTopicCommand.cs" />
+    <Compile Include="Commands\Park\PassagemReprovadaParkTopicCommand.cs" />
+    <Compile Include="Dtos\DetalheTrnDto.cs" />
+    <Compile Include="Dtos\DetalheViagemAgendadaDto.cs" />
+    <Compile Include="Dtos\FeriadoDto.cs" />
+    <Compile Include="Dtos\HistoricoListaNelaDto.cs" />
+    <Compile Include="Dtos\IncidenteDto.cs" />
+    <Compile Include="Dtos\ItemListaDeParaDto.cs" />
+    <Compile Include="Dtos\ListaDeParaCategoriaVeiculoDto.cs" />
+    <Compile Include="Dtos\PassagemPendenteViewDto.cs" />
+    <Compile Include="Enums\EstacionamentoErros.cs" />
+    <Compile Include="Dtos\UltimaTransacaoPassagemDto.cs" />
+    <Compile Include="Enums\PassagemPendenteEdiValidatorEnum.cs" />
+    <Compile Include="Enums\PassagemPendenteParkValidatorEnum.cs" />
+    <Compile Include="Exceptions\EdiDomainException.cs" />
+    <Compile Include="Exceptions\EdiTransacaoException.cs" />
+    <Compile Include="Exceptions\EdiTransacaoParceiroException.cs" />
+    <Compile Include="Exceptions\ParkException.cs" />
+    <Compile Include="Exceptions\ParkDomainException.cs" />
+    <!-- <Compile Include="Exceptions\TransacaoParceiroException.cs" />-->
+    <Compile Include="Exceptions\PassagemInvalidaNoSysException.cs" />
+    <Compile Include="Exceptions\TransacaoParceiroException.cs" />
+    <Compile Include="Handlers\Artesp\IdentificadorPassagemAceiteManualReenvioArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemProcessadaMensageriaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemReprovadaTransacaoParceiroRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemReprovadaTransacaParceiroArtespRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\IdentificadorPassagemAceiteManualReenvioRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemPendenteConcessionariaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemPendenteAceiteManualReenvioRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemAceiteManualReenvioRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemSistemaAceiteManualReenvioRequest.cs" />
+    <Compile Include="Handlers\Artesp\Responses\IdentificadorPassagemAceiteManualReenvioResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemExistenteTransacaoPassagemResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemExistenteTransacaoRecusadaResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemPendenteConcessionariaResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemPendenteAceiteManualReenvioResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemAceiteManualReenvioResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemSistemaAceiteManualReenvioResponse.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemAceiteManualReenvioArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemPendenteAceiteManualReenvioArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemPendenteConcessionariaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemSistemaAceiteManualReenvioArtespHandler.cs" />
+    <Compile Include="Handlers\Edi\GeradorPassagemAprovadaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\GeradorPassagemEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\GeradorPassagemReprovadaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\IdentificadorPassagemDuplicadaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ProcessadorPassagemAprovadaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ProcessadorPassagemReprovadaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\Request\CategoriaUtilizadasRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\GeradorPassagemAprovadaEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\GeradorPassagemEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\GeradorPassagemReprovadaPorTransacaoParceiroExceptionEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\GeradorPassagemReprovadaPorTransacaoExceptionEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\IdentificadorPassagemDuplicadaEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ProcessadorPassagemAprovadaEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ProcessadorPassagemReprovadaEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ValidadorDivergenciaCategoriaEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ValidadorPassagemEdiActorRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ValidadorPassagemPendenteEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ValidadorPassagemSistemaEdiActorRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ValidadorPassagemValePedagioEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Request\ValidadorSlaListaNelaEdiRequest.cs" />
+    <Compile Include="Handlers\Edi\Responses\CategoriaUtilizadasResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\GeradorPassagemAprovadaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\GeradorPassagemEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\GeradorPassagemReprovadaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\IdentificadorPassagemDuplicadaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ProcessadorPassagemAprovadaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ProcessadorPassagemReprovadaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ValidadorDivergenciaCategoriaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ValidadorPassagemEdiActorResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ValidadorPassagemPendenteEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ValidadorPassagemSistemaEdiActorResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ValidadorPassagemValePedagioEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\Responses\ValidadorSlaListaNelaEdiResponse.cs" />
+    <Compile Include="Handlers\Edi\ValidadorDivergenciaCategoriaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ValidadorPassagemEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ValidadorPassagemPendenteEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ValidadorPassagemSistemaEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ValidadorPassagemValePedagioEdiHandler.cs" />
+    <Compile Include="Handlers\Edi\ValidadorSlaListaNelaEdiHandler.cs" />
+    <Compile Include="Handlers\Park\GerarPassagemAprovadaParkHandler.cs" />
+    <Compile Include="Handlers\Park\GerarPassagemParkHandler.cs" />
+    <Compile Include="Handlers\Park\GerarPassagemReprovadaParkHandler.cs" />
+    <Compile Include="Handlers\Park\ProcessarPassagemAprovadaParkHandler.cs" />
+    <Compile Include="Handlers\Park\ProcessarPassagemInvalidaParkHandler.cs" />
+    <Compile Include="Handlers\Park\ProcessadorPassagemReprovadaParkHandler.cs" />
+    <Compile Include="Handlers\Park\Request\GerarPassagemAprovadaParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\GerarPassagemParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\GerarPassagemReprovadaParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\ProcessarPassagemAprovadaParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\ProcessarPassagemInvalidaParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\ProcessarPassagemReprovadaParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\ValidarPassagemParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\ValidarPassagemPendenteParkRequest.cs" />
+    <Compile Include="Handlers\Park\Request\ValidarPassagemSistemaParkRequest.cs" />
+    <Compile Include="Handlers\Park\Response\GerarPassagemAprovadaParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\GerarPassagemParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\GerarPassagemReprovadaParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\ProcessarPassagemAprovadaParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\ProcessarPassagemInvalidaParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\ProcessarPassagemReprovadaParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\ValidarPassagemParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\ValidarPassagemPendenteParkResponse.cs" />
+    <Compile Include="Handlers\Park\Response\ValidarPassagemSistemaParkResponse.cs" />
+    <Compile Include="Handlers\Park\ValidarPassagemParkHandler.cs" />
+    <Compile Include="Handlers\Park\ValidarPassagemPendenteParkHandler.cs" />
+    <Compile Include="Handlers\Park\ValidarPassagemSistemaParkHandler.cs" />
+    <Compile Include="Mappers\GaradoreDtoArtespProfile.cs" />
+    <Compile Include="Mappers\MessagesProfile.cs" />
+    <Compile Include="Mappers\GeradorDtoEdiProfile.cs" />
+    <Compile Include="Mappers\PassagemPendenteArtespProfile.cs" />
+    <Compile Include="Mappers\PassagemPendenteEDIProfile.cs" />
+    <Compile Include="Mappers\PassagemPendenteParkProfile.cs" />
+    <Compile Include="Messages\Artesp\PassagemInvalidaMessage.cs" />
+    <Compile Include="Messages\Artesp\PassagemAprovadaMessage.cs" />
+    <Compile Include="Messages\Artesp\PassagemReprovadaMessage.cs" />
+    <Compile Include="Dtos\PeriodoFaturaDto.cs" />
+    <Compile Include="Dtos\RepasseDto.cs" />
+    <Compile Include="Dtos\TagAdesaoDto.cs" />
+    <Compile Include="Dtos\TagMensageriaDto.cs" />
+    <Compile Include="Dtos\TransacaoPassagemDto.cs" />
+    <Compile Include="Dtos\ValePedagioDto.cs" />
+    <Compile Include="Enums\NomeConfiguracaoSistema.cs" />
+    <Compile Include="Enums\PassagemPendenteArtespValidatorEnum.cs" />
+    <Compile Include="Exceptions\DomainException.cs" />
+    <Compile Include="Enums\TipoRepasse.cs" />
+    <Compile Include="Exceptions\PassagemDivergenciaCategoriaException.cs" />
+    <Compile Include="Exceptions\PassagemInvalidaException.cs" />
+    <Compile Include="Exceptions\PassagemPendenteReprovadaException.cs" />
+    <Compile Include="Exceptions\PassagemReprovadaException.cs" />
+    <Compile Include="Exceptions\PassagemException.cs" />
+    <Compile Include="Exceptions\TransacaoPassagemExistenteException.cs" />
+    <Compile Include="Exceptions\TransacaoReprovadaExistenteException.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Handlers\Artesp\ProcessadorPassagemInvalidaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\GeradorPassagemReprovadaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\GeradorPassagemInvalidaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ProcessadorPassagemAprovadaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ProcessadorPassagemReprovadaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\GeradorPassagemAprovadaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemAprovadaComTransacaoExistenteRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemAprovadaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemReprovadaDivergenciaCategoriaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemPendenteReprovadaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemPendenteReprovadaTransacaoReprovadaExistenteRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemInvalidaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\GeradorPassagemReprovadaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\IdentificadorPassagemRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ProcessadorPassagemAprovadaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ProcessadorPassagemInvalidaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ProcessadorPassagemReprovadaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorDivergenciaCategoriaPassagemRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemExistenteRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemPendenteRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemSistemaRequest.cs" />
+    <Compile Include="Handlers\Artesp\Requests\ValidadorPassagemValePedagioRequest.cs" />
+    <Compile Include="Handlers\Artesp\Responses\GeradorPassagemAprovadaResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\EndResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\GeradorPassagemResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\GeradorPassagemInvalidaResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\GeradorPassagemReprovadaResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\IdentificadorPassagemResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorDivergenciaCategoriaPassagemResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemExistenteResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemPendenteResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemSistemaResponse.cs" />
+    <Compile Include="Handlers\Artesp\Responses\ValidadorPassagemValePedagioResponse.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorDivergenciaCategoriaPassagemArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemValePedagioArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemSistemaArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\GeradorPassagemArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemPendenteArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\ValidadorPassagemExistenteArtespHandler.cs" />
+    <Compile Include="Handlers\Artesp\IdentificadorPassagemArtespHandler.cs" />
+    <Compile Include="Mappers\MapperConfig.cs" />
+    <Compile Include="Messages\Edi\PassagemReprovadaEDIMessage.cs" />
+    <Compile Include="Messages\Edi\PassagemAprovadaEDIMessage.cs" />
+    <Compile Include="Messages\Park\PassagemAprovadaParkMessage.cs" />
+    <Compile Include="Messages\Park\PassagemReprovadaParkMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries\CriarPassagemAprovadaCompletaParkQuery.cs" />
+    <Compile Include="Queries\CriarPassagemCompletaEdiQuery.cs" />
+    <Compile Include="Queries\CriarPassagemCompletaParkQuery.cs" />
+    <Compile Include="Queries\CriarPassagemCompletaQuery.cs" />
+    <Compile Include="Queries\Filter\DetalheTrnFilter.cs" />
+    <Compile Include="Queries\Filter\ObterCategoriasRejeitadasFilter.cs" />
+    <Compile Include="Queries\Filter\ObterCountFechamentoPorConveniadoEDataFilter.cs" />
+    <Compile Include="Queries\Filter\ObterCountTransacaoPassagemPorHorarioDePassagemManualFilter.cs" />
+    <Compile Include="Queries\Filter\ObterDetalheViagemFilter.cs" />
+    <Compile Include="Queries\Filter\ObterHistoricoListaNelaFilter.cs" />
+    <Compile Include="Queries\Filter\ObterRepasseFilter.cs" />
+    <Compile Include="Queries\Filter\ObterSePossuiIncidentesFilter.cs" />
+    <Compile Include="Queries\Filter\ObterPassagemAnteriorValidaCompletaFilter.cs" />
+    <Compile Include="Queries\Filter\ObterTransacaoEstacionamentoIdRepetidaFilter.cs" />
+    <Compile Include="Dtos\ObterStatusAdesaoIdPlacaDocumentoPortransacaoIdOriginalDto.cs" />
+    <Compile Include="Queries\Filter\ObterViagemAgendadaPorPlacaPracaDataPassagemFilter.cs" />
+    <Compile Include="Queries\Filter\PlacaDataPassagemETransacaoIdOriginalFilter.cs" />
+    <Compile Include="Connections\DataBaseConnection.cs" />
+    <Compile Include="Queries\ListarViagensASeremCanceladasQuery.cs" />
+    <Compile Include="Queries\ObterAdesaoPorDocumentoQuery.cs" />
+    <Compile Include="Queries\ObterAdesaoPorPlacaDocumentoQuery.cs" />
+    <Compile Include="Queries\ObterCategoriasRejeitadasQuery.cs" />
+    <Compile Include="Queries\ObterConveniadoQuery.cs" />
+    <Compile Include="Queries\ObterCountFechamentoPorConveniadoEDataQuery.cs" />
+    <Compile Include="Queries\ObterCountDetalheTrfRecusadoPorDetalhesDaPassagemQuery.cs" />
+    <Compile Include="Queries\ObterDetalheTrnPorTransacaoIdQuery.cs" />
+    <Compile Include="Queries\ObterCountConveniadoDayChangeQuery.cs" />
+    <Compile Include="Queries\ObterDataReferenciaRetroativaPorConveniadoQuery.cs" />
+    <Compile Include="Queries\ObterParametrosValePedagioFinanceiroQuery.cs" />
+    <Compile Include="Queries\ObterPassagemAnteriorQuery.cs" />
+    <Compile Include="Queries\ObterRepasseVigentePorPlanoQuery.cs" />
+    <Compile Include="Queries\ObterHorarioFechamentoConveniadoDayChangeQuery.cs" />
+    <Compile Include="Queries\ObterTransacaoEstacionamentoIdRepetidaQuery.cs" />
+    <Compile Include="Queries\ObterTransacaoProvisoriaQuery.cs" />
+    <Compile Include="Queries\ObterSePossuiIncidentesQuery.cs" />
+    <Compile Include="Queries\ObterHistoricoListaNelaQuery.cs" />
+    <Compile Include="Queries\ObterCountDetalheViagemCanceladaPorViagemId.cs" />
+    <Compile Include="Queries\ObterLimiteDeCreditoConfiguracaoPlanoClienteQuery.cs" />
+    <Compile Include="Queries\ObterCountDetalheViagemQuery.cs" />
+    <Compile Include="Queries\ObterCountPossuiTransacaoProvisoriaQuery.cs" />
+    <Compile Include="Queries\ObterCountTransacaoExistenteNoPeriodoQuery.cs" />
+    <Compile Include="Queries\ObterDetalhesViagemPorViagemIdQuery.cs" />
+    <Compile Include="Queries\ObterDetalheViagemQuery.cs" />
+    <Compile Include="Queries\ObterEcarregarCategoriaVeiculoPorCodigoEdiQuery.cs" />
+    <Compile Include="Queries\ObterCountHistoricoListaNelaQuery.cs" />
+    <Compile Include="Queries\ObterNumeroVezesRecusadoParamValePedagioFinanceiroQuery.cs" />
+    <Compile Include="Queries\ObterIdPassagemImediatamenteAnteriorQuery.cs" />
+    <Compile Include="Queries\ObterParceiroNegocioIdPorCodigoQuery.cs" />
+    <Compile Include="Queries\ObterPassagemPorCodigoPassagemConveniadoQuery.cs" />
+    <Compile Include="Queries\ObterPistaPracaConveniadoArtespCacheOriginQuery2.cs" />
+    <Compile Include="Queries\ObterPlacaPorOBUIdEDataPassagemQuery.cs" />
+    <Compile Include="Queries\ObterCountTransacaoPassagemManualHorarioIncompativelNaMesmaPracaQuery.cs" />
+    <Compile Include="Queries\ObterCountTransacaoPassagemPorHorarioDePassagemManualQuery.cs" />
+    <Compile Include="Queries\ObterCountTransacaoPassagemRepetida.cs" />
+    <Compile Include="Queries\ObterCountTransacaoPassagemRepetidaOrigemTrn.cs" />
+    <Compile Include="Queries\ObterCountTransacaoPassagemRepetidaPorConveniado.cs" />
+    <Compile Include="Queries\Filter\AceiteManualReenvioPassagemPorPassagemNaoProcessadoFilter.cs" />
+    <Compile Include="Queries\ObterAceiteManualReenvioIdPorPassagemNaoProcessadoQuery.cs" />
+    <Compile Include="Queries\ObterDataCadastroConfiguracaoPlanoQuery.cs" />
+    <Compile Include="Queries\ObterDiaVencimentoFaturaQuery.cs" />
+    <Compile Include="Queries\ObterCountPassagemForaSequencia.cs" />
+    <Compile Include="Queries\ObterCountGrupoPorTagPracaQuery.cs" />
+    <Compile Include="Queries\ObterFeriadosQuery.cs" />
+    <Compile Include="Queries\ObterItemListaDeParaPorCodigoEntradaQuery.cs" />
+    <Compile Include="Queries\ObterListaDeParaCategoriaVeiculoPorIdQuery.cs" />
+    <Compile Include="Queries\ObterListaTransacaoPassagemQuery.cs" />
+    <Compile Include="Queries\ObterPassagemAnteriorValidaQuery.cs" />
+    <Compile Include="Queries\ObterPassagemCompletaPorPassagemIdQuery.cs" />
+    <Compile Include="Queries\ObterDataVencimentoUltimaFaturaQuery.cs" />
+    <Compile Include="Queries\ObterPassagemIdPorMensagemItemIdQuery.cs" />
+    <Compile Include="Queries\ObterPassagemImediatamenteAnteriorQuery.cs" />
+    <Compile Include="Queries\ObterCountPassagemProcessadaCompensadaQuery.cs" />
+    <Compile Include="Queries\ObterCountReenvioAnteriorMensageriaQuery.cs" />
+    <Compile Include="Queries\ObterGrupoPorTagPracaQuery.cs" />
+    <Compile Include="Queries\ObterProximosFeriadosQuery.cs" />
+    <Compile Include="Queries\ObterCategoriaVeiculo.cs" />
+    <Compile Include="Queries\ObterRepasseQuery.cs" />
+    <Compile Include="Queries\ObterPassagemProcessadaQuery.cs" />
+    <Compile Include="Queries\ObterSaldoQuery.cs" />
+    <Compile Include="Queries\ObterStatusAdesaoIdPlacaDocumentoPortransacaoIdOriginalQuery.cs" />
+    <Compile Include="Queries\ObterTagNoMomentoDaPassagemMensageriaQuery.cs" />
+    <Compile Include="Queries\ObterTarifaPorPracaECategoria.cs" />
+    <Compile Include="Queries\ObterTransacaoPassagemIdAnteriorValidaQuery.cs" />
+    <Compile Include="Queries\ObterTransacaoPassagemPorAdesaoIdQuery.cs" />
+    <Compile Include="Queries\ObterTransacaoPassagemPorPassagemIdQuery.cs" />
+    <Compile Include="Queries\ObterTransacaoPassagemPorTransacaoIdQuery.cs" />
+    <Compile Include="Queries\ObterTransacaoRecusadaPorPassagemIdQuery.cs" />
+    <Compile Include="Queries\Filter\ObterPassagemCompletaFilter.cs" />
+    <Compile Include="Queries\Filter\TagNoMomentoDaPassagemFilter.cs" />
+    <Compile Include="Queries\ObterUltimaTransacaoPassagemArtespPorAdesaoIdQuery.cs" />
+    <Compile Include="Queries\ObterUltimaTransacaoPassagemTrnPorAdesaoIdQuery.cs" />
+    <Compile Include="Queries\ObterIdUltimaTransacaoPassagemQuery.cs" />
+    <Compile Include="Queries\ObterViagemAgendadaOriginalQuery.cs" />
+    <Compile Include="Queries\ObterViagemAguardandoDefiniciaoPorPlacaPracaDataPassagemQuery.cs" />
+    <Compile Include="Queries\ObterViagemAgendadaPorPlacaPracaDataPassagemQuery.cs" />
+    <Compile Include="Queries\TempoDePassagemEhInValidoQuery.cs" />
+    <Compile Include="Resources\TransacaoAutorizacaoResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransacaoAutorizacaoResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Util\DateTimeHelper.cs" />
+    <Compile Include="Util\IDateTimeHelper.cs" />
+    <Compile Include="Util\DateTimeUtil.cs" />
+    <Compile Include="Validators\Validator\PossuiSaldoSuficienteValidator.cs" />
+    <Compile Include="Validators\RuleSet\PassagemPendenteArtespRuleSet.cs" />
+    <Compile Include="Validators\RuleSet\PassagemPendenteEdiRuleset.cs" />
+    <Compile Include="Validators\RuleSet\PassagemPendenteParkRuleSet.cs" />
+    <Compile Include="Validators\Validator\AceiteManualValidator.cs" />
+    <Compile Include="Validators\Validator\CategoriaVeiculoValidator.cs" />
+    <Compile Include="Validators\Validator\DivergenciaCategoriaValidator.cs" />
+    <Compile Include="Validators\Validator\GenericValidator.cs" />
+    <Compile Include="Validators\Validator\GrupoIsentoTagValidator.cs" />
+    <Compile Include="Validators\Validator\HorarioPassagemAutomaticaValidator.cs" />
+    <Compile Include="Validators\Validator\HorarioPassagemIncompativelValidator.cs" />
+    <Compile Include="Validators\Validator\HorarioPassagemManualValidator.cs" />
+    <Compile Include="Validators\Validator\HorarioValidator.cs" />
+    <Compile Include="Validators\Validator\IValidator.cs" />
+    <Compile Include="Validators\Validator\OSAValidator.cs" />
+    <Compile Include="Validators\Validator\PassagemCompensadaPreviamenteValidator.cs" />
+    <Compile Include="Validators\Validator\PassagemEvasivaValidator.cs" />
+    <Compile Include="Validators\Validator\PassagemForaDoPrazoValidator.cs" />
+    <Compile Include="Validators\Validator\PassagemRepetidaPorPassagemConveniadoValidator.cs" />
+    <Compile Include="Validators\Validator\PassagemValePedagioValidator.cs" />
+    <Compile Include="Validators\Validator\CobrancaIndevidaValidator.cs" />
+    <Compile Include="Validators\Validator\PrimeiraPassagemManualValidator.cs" />
+    <Compile Include="Validators\Validator\ReenvioInvalidoValidator.cs" />
+    <Compile Include="Validators\Validator\SaldoValidator.cs" />
+    <Compile Include="Validators\Validator\SlaListaNelaEdiValidator.cs" />
+    <Compile Include="Validators\Validator\TagGrupoPracaValidator.cs" />
+    <Compile Include="Validators\Validator\TagPracaBloqueadoLadoMensageriaValidator.cs" />
+    <Compile Include="Validators\Validator\TransacaoConfirmacaoValidator.cs" />
+    <Compile Include="Validators\Validator\TransacaoRepetidaEdiValidator.cs" />
+    <Compile Include="Validators\Validator\TransacaoRepetidaValidator.cs" />
+    <Compile Include="Validators\Validator\ValePedagioEdiValidator.cs" />
+    <Compile Include="Validators\Validator\ValidarTransacaoRepetidaParkQuery.cs" />
+    <Compile Include="Validators\Validator\ValorTarifaValidator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validators\Request\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\ProcessadorPassagensActors.Infrastructure.csproj">
+      <Project>{74DEDD24-F32F-4C9D-A54C-A26D987CFA87}</Project>
+      <Name>ProcessadorPassagensActors.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\TransacaoAutorizacaoResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TransacaoAutorizacaoResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Azure.DocumentDB.1.17.0\build\Microsoft.Azure.DocumentDB.targets" Condition="Exists('..\packages\Microsoft.Azure.DocumentDB.1.17.0\build\Microsoft.Azure.DocumentDB.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Azure.DocumentDB.1.17.0\build\Microsoft.Azure.DocumentDB.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Azure.DocumentDB.1.17.0\build\Microsoft.Azure.DocumentDB.targets'))" />
+  </Target>
+</Project>

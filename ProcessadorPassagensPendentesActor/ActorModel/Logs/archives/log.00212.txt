@@ -1,0 +1,542 @@
+2017-10-26 11:14:59.7840 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:15:00.8603 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 11:15:00.8603 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:15:00.8603 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:15:01.0440 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:15:01.0480 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:15:01.4024 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 11:15:47.7936 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:15:47.7986 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:15:47.9730 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:15:47.9730 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:15:54.7899 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 11:15:54.7899 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 11:15:54.7989 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 11:15:54.7989 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 11:15:54.7989 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 11:15:54.7989 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 11:15:54.8170 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 11:15:55.5298 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 11:15:55.5348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 11:15:55.5348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 11:15:55.5348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 11:15:55.5348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 11:15:55.5498 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:15:55.5498 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:15:55.7309 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:15:55.7349 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:15:56.4329 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 11:15:56.4329 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:15:56.4395 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:15:56.6150 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:15:56.6150 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:15:57.6620 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 11:24:40.0118 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:24:40.0168 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:24:40.1947 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:24:40.1947 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:24:43.2198 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 11:24:43.2198 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 11:24:43.2198 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 11:24:43.2348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 11:24:43.2348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 11:24:43.2348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 11:24:43.2518 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 11:24:43.9626 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 11:24:43.9666 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 11:24:43.9666 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 11:24:43.9666 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 11:24:43.9666 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 11:24:43.9836 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:24:43.9836 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:24:44.1626 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:24:44.1626 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:24:45.0273 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 11:24:45.0313 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 11:24:45.0313 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 11:24:45.2110 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 11:24:45.2150 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 11:24:45.9112 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 12:25:20.8815 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 12:25:20.9095 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 12:25:20.9255 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 12:26:26.2732 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 12:26:26.3948 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 12:26:26.4093 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 12:26:26.4313 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 12:26:26.4313 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 12:26:26.4313 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 12:26:26.4784 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 12:26:26.8226 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:26:28.0885 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 12:26:28.0885 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 12:26:28.0885 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 12:26:28.1040 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 12:26:28.1040 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 12:26:28.1040 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:26:28.1355 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:26:28.1355 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:26:28.3233 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:26:28.3233 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:26:28.3233 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 12:26:28.3233 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 12:26:29.3920 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 12:26:29.3970 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:26:29.3970 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:26:29.5764 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:26:29.5764 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 12:26:29.9308 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 12:52:16.7699 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 12:52:16.7979 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 12:52:16.8119 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 12:52:25.7845 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 12:52:25.8962 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 12:52:25.9102 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 12:52:25.9102 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 12:52:25.9217 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 12:52:25.9217 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 12:52:25.9367 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 12:52:26.1074 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:52:27.4030 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:52:27.4789 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 12:52:27.4849 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 12:52:27.4849 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 12:52:27.4849 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 12:52:27.4985 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 12:52:27.4985 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:52:27.4985 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:52:27.5940 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:52:27.5940 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 12:52:27.6812 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:52:27.6852 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 12:52:28.5052 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 12:52:28.5052 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:52:28.5142 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:52:28.6900 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:52:28.6900 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 12:52:29.0466 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 12:52:39.8125 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":null,"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":null,"NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-26T12:52:29.8323243-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"0001-01-01T00:00:00","StatusId":0,"Status":0,"TipoOperacaoId":0,"TipoOperacao":0,"AdesaoId":0,"Valor":0.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":0,"SerieRPS":"","NumeroRPS":0,"PistaId":0,"DataCriacao":"0001-01-01T00:00:00","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":0,"Id":null},"DetalhePassagemEstacionamento":null}] 
+2017-10-26 12:53:49.7876 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 12:53:49.7876 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 12:53:49.9678 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 12:53:49.9678 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:39:51.0981 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 13:39:51.1233 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 13:39:51.1233 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 13:49:39.5426 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 13:49:47.1829 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 13:49:47.2089 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 13:49:47.2089 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 13:49:47.2229 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 13:49:47.2229 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 13:49:50.5124 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 13:49:50.5274 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 13:49:51.8191 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 13:49:52.0175 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 13:49:52.0225 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:49:54.3592 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 13:49:54.3647 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 13:49:54.3647 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 13:49:54.3647 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 13:49:54.3787 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 13:49:54.3787 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 13:49:54.3787 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 13:49:54.5676 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 13:49:54.5676 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:49:54.9451 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 13:49:54.9451 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 13:49:54.9451 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 13:49:55.1292 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 13:49:55.1292 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:49:56.2474 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 13:50:14.5320 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":null,"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":null,"NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-26T13:49:57.9806193-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"0001-01-01T00:00:00","StatusId":0,"Status":0,"TipoOperacaoId":0,"TipoOperacao":0,"AdesaoId":0,"Valor":0.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":0,"SerieRPS":"","NumeroRPS":0,"PistaId":0,"DataCriacao":"0001-01-01T00:00:00","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":0,"Id":null},"DetalhePassagemEstacionamento":null}] 
+2017-10-26 13:50:28.4010 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 13:50:28.4010 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 13:50:28.5828 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 13:50:28.5828 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:50:32.9051 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 13:51:09.9129 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 13:51:11.5514 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 13:51:12.3445 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 13:51:13.0896 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 13:51:13.8672 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 13:51:23.1211 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 13:51:28.9233 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 13:54:09.0445 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 13:54:10.2314 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 13:54:11.0785 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 13:54:11.9579 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 13:54:13.5101 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 13:54:14.1944 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 13:54:14.1944 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 13:54:14.3782 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 13:54:14.3782 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:54:15.8111 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 13:54:17.1225 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 13:54:17.1305 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 13:54:17.3105 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 13:54:17.3105 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 13:54:37.3798 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 14:12:11.5080 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 14:12:11.5367 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 14:12:11.5517 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 14:14:05.7353 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 14:26:12.8146 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 14:26:12.8321 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 14:26:12.8421 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 14:26:12.8421 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 14:26:12.8561 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 14:26:13.9000 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 14:26:14.0539 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 14:26:15.3625 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 14:26:15.5552 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 14:26:15.5552 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 14:26:16.4877 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 14:26:16.4937 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 14:26:16.4937 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 14:26:16.4937 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 14:26:16.5092 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 14:26:16.5092 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 14:26:16.5092 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 14:26:16.6939 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 14:26:16.7019 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 14:26:17.0532 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 14:26:17.0582 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 14:26:17.0582 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 14:26:17.2391 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 14:26:17.2431 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 14:26:18.7225 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 14:55:16.1250 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 14:55:16.1541 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 14:55:16.1541 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 14:55:21.1151 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 14:55:23.4014 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 14:55:23.4154 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 14:55:23.4244 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 14:55:23.4244 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 14:55:23.4464 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 14:55:24.6997 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 14:55:24.7067 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 14:55:25.9808 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 14:55:26.1748 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 14:55:26.1748 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 14:55:27.1034 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 14:55:27.1104 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 14:55:27.1104 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 14:55:27.1104 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 14:55:27.1265 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 14:55:27.1265 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 14:55:27.1475 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 14:55:27.3237 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 14:55:27.3307 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 14:55:27.6843 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 14:55:27.6883 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 14:55:27.6883 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 14:55:27.8719 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 14:55:27.8719 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 14:55:28.9943 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 14:55:39.3845 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":[],"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":"","NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-26T14:55:30.531143-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"0001-01-01T00:00:00","StatusId":0,"Status":0,"TipoOperacaoId":0,"TipoOperacao":0,"AdesaoId":0,"Valor":0.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":0,"SerieRPS":"","NumeroRPS":0,"PistaId":0,"DataCriacao":"0001-01-01T00:00:00","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":0,"Id":null},"DetalhePassagemEstacionamento":{"DataHoraPassagem":"0001-01-01T00:00:00","PistaId":0,"TransacaoEstacionamentoId":0,"SurrogateKey":0,"Id":null}}] 
+2017-10-26 14:57:02.6724 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 14:57:02.7054 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 14:57:02.7244 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 14:59:58.7354 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 15:00:01.0327 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 15:00:01.0534 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 15:00:01.0594 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 15:00:01.0594 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 15:00:01.0594 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 15:00:01.8422 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 15:00:02.1494 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 15:00:03.4429 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 15:00:03.6371 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 15:00:03.6371 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 15:00:04.7188 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 15:00:04.7188 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 15:00:04.7318 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 15:00:04.7318 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 15:00:04.7318 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 15:00:04.7469 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 15:00:04.7469 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 15:00:04.9298 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 15:00:04.9349 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 15:00:05.8266 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 15:00:05.8266 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 15:00:05.8266 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 15:00:06.0116 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 15:00:06.0153 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 15:00:07.8337 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 15:09:08.7150 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 15:09:08.7430 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 15:09:08.7570 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 15:15:13.6193 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 15:15:27.3452 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 15:15:27.3698 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 15:15:27.3698 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 15:15:27.3978 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 15:15:27.3978 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 15:15:28.0695 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 15:15:28.2257 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 15:15:30.7804 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 15:15:30.7804 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 15:15:30.7804 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 15:15:30.7904 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 15:15:30.7904 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 15:15:30.8064 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 15:15:30.8064 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 15:15:30.8064 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 15:15:30.9830 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 15:15:30.9830 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 15:15:30.9955 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 15:15:30.9955 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 15:15:35.8834 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 15:15:35.8834 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 15:15:35.8834 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 15:15:36.0705 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 15:15:36.0705 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 15:15:40.3158 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 15:16:03.2307 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":[],"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":"","NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-26T15:15:47.8541809-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"2017-10-26T15:15:47.8531844-02:00","StatusId":1,"Status":1,"TipoOperacaoId":14,"TipoOperacao":14,"AdesaoId":165508,"Valor":9.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":0,"SerieRPS":"","NumeroRPS":0,"PistaId":0,"DataCriacao":"0001-01-01T00:00:00","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":0,"Id":null},"DetalhePassagemEstacionamento":{"DataHoraPassagem":"0001-01-01T00:00:00","PistaId":0,"TransacaoEstacionamentoId":0,"SurrogateKey":0,"Id":null}}] 
+2017-10-26 16:07:28.3838 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 16:07:28.4125 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 16:07:28.4275 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 16:16:04.7268 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 16:16:08.8874 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 16:16:08.9034 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 16:16:08.9114 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 16:16:08.9114 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 16:16:08.9114 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 16:16:09.8650 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 16:16:09.8650 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:16:11.1501 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:16:11.3438 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:16:11.3498 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:16:12.3179 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 16:16:12.3179 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 16:16:12.3339 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 16:16:12.3339 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 16:16:12.3489 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 16:16:12.3489 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:16:12.3644 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:16:12.5420 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:16:12.5490 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:16:12.9011 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 16:16:12.9081 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:16:12.9081 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:16:13.0917 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:16:13.0967 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:16:15.2577 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 16:16:54.2178 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":[{"DataHoraPassagem":"2017-10-05T11:50:37Z","PistaId":2,"TransacaoEstacionamentoId":null,"SurrogateKey":0,"Id":null}],"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":"","NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-26T16:16:25.1578689-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"2017-10-26T16:16:25.1568848-02:00","StatusId":1,"Status":1,"TipoOperacaoId":14,"TipoOperacao":14,"AdesaoId":165508,"Valor":9.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":0,"SerieRPS":"","NumeroRPS":0,"PistaId":0,"DataCriacao":"0001-01-01T00:00:00","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":0,"Id":null}}] 
+2017-10-26 16:17:25.2714 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:17:25.2714 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:17:25.4545 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:17:25.4545 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:17:34.0919 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 16:18:40.0878 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 16:18:40.1048 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 16:18:40.1048 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 16:18:40.1138 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 16:18:40.1138 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 16:18:44.3210 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 16:18:50.8482 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 16:19:30.4573 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 16:19:30.4573 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 16:19:30.4723 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 16:19:30.4723 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 16:19:30.4723 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 16:19:30.4863 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:19:30.4863 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:19:30.6669 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:19:30.6669 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:19:31.0267 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 16:19:31.0267 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:19:31.0357 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:19:31.2135 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:19:31.2135 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:19:34.2818 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-26 16:20:55.4284 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 16:20:55.4544 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-26 16:20:55.4544 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-26 16:20:59.7328 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-26 16:21:00.9052 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-26 16:21:00.9251 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-26 16:21:00.9251 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-26 16:21:00.9251 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-26 16:21:00.9411 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-26 16:21:02.3830 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-26 16:21:02.7185 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:21:04.7865 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-26 16:21:04.7865 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-26 16:21:04.7865 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:21:04.7865 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-26 16:21:04.8056 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-26 16:21:04.8056 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-26 16:21:04.8166 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:21:04.8166 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:21:04.9876 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:21:04.9876 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:21:04.9876 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:21:05.0056 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:21:06.0485 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-26 16:21:06.0485 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-26 16:21:06.0485 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-26 16:21:06.2382 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-26 16:21:06.2382 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-26 16:21:08.2330 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-27 11:15:19.6882 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 11:15:19.7168 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 11:15:19.7303 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-27 11:15:36.6984 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-27 11:16:09.0646 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-27 11:16:09.0777 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-27 11:16:09.0857 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-27 11:16:09.0857 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-27 11:16:09.0982 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-27 11:16:10.1348 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-27 11:16:10.3029 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 11:16:11.6496 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 11:16:11.8393 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Nao ha informaçoes em cache. Obtendo informaçoes da base de dados de origem do cache. 
+2017-10-27 11:16:11.8473 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Salvando a base de dados de origem. 
+2017-10-27 11:16:11.8473 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Verificando se a base de dados de origem está confiável. 
+2017-10-27 11:16:12.7478 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Base de dados de origem está confiável. Iniciando execuçao da consulta. 
+2017-10-27 11:16:13.9163 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Salvando informaçoes no cache. 
+2017-10-27 11:16:13.9163 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Salvando informaçoes no cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 11:16:15.0883 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-27 11:16:15.1093 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-27 11:16:15.1143 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-27 11:16:15.1143 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-27 11:16:15.1143 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-27 11:16:15.1298 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 11:16:15.1298 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 11:16:15.3126 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Nao ha informaçoes em cache. Obtendo informaçoes da base de dados de origem do cache. 
+2017-10-27 11:16:15.3176 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Salvando a base de dados de origem. 
+2017-10-27 11:16:15.3176 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Verificando se a base de dados de origem está confiável. 
+2017-10-27 11:16:15.5304 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Base de dados de origem está confiável. Iniciando execuçao da consulta. 
+2017-10-27 11:16:16.2310 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Salvando informaçoes no cache. 
+2017-10-27 11:16:16.2310 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Salvando informaçoes no cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 11:16:16.4220 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-27 11:16:16.4265 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 11:16:16.4265 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 11:16:16.6077 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 11:16:16.6077 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 11:16:18.8739 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-27 11:16:52.2341 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":[{"DataHoraPassagem":"2017-10-05T11:50:37Z","PistaId":2,"TransacaoEstacionamentoId":null,"SurrogateKey":0,"Id":null}],"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":"","NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-27T11:16:32.1548945-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"2017-10-27T11:16:32.1538942-02:00","StatusId":1,"Status":1,"TipoOperacaoId":14,"TipoOperacao":14,"AdesaoId":165508,"Valor":9.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":0,"SerieRPS":"","NumeroRPS":0,"PistaId":0,"DataCriacao":"0001-01-01T00:00:00","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":0,"Id":null}}] 
+2017-10-27 11:17:58.2386 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 11:17:58.2386 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 11:17:58.4221 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 11:17:58.4276 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:32:40.0128 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:32:40.1579 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:32:40.1715 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-27 14:33:08.8103 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-27 14:33:16.2753 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-27 14:33:16.2908 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-27 14:33:16.2908 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-27 14:33:16.3073 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-27 14:33:16.3073 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-27 14:33:18.0955 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-27 14:33:18.2915 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:33:19.6746 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:33:19.8649 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:33:19.8649 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:33:24.5328 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-27 14:33:24.5398 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-27 14:33:24.5398 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-27 14:33:24.5398 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-27 14:33:24.5548 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:33:24.5548 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:33:24.5548 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:33:24.7477 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:33:24.7477 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:33:25.1047 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:33:25.1047 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:33:25.1047 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:33:25.2899 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:33:25.2899 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:33:49.8620 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-27 14:40:49.1637 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:40:49.2474 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:40:49.2625 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-27 14:41:42.1550 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-27 14:41:44.1410 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-27 14:41:44.1600 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-27 14:41:44.1600 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-27 14:41:44.1746 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-27 14:41:44.1746 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-27 14:41:44.8642 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-27 14:41:44.9928 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:41:46.3001 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:41:46.4924 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:41:46.4924 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:41:47.3590 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-27 14:41:47.3640 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-27 14:41:47.3640 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-27 14:41:47.3640 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-27 14:41:47.3783 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:41:47.3783 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:41:47.3783 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:41:47.5690 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:41:47.5690 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:41:47.9259 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:41:47.9259 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:41:47.9259 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:41:48.1103 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:41:48.1143 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:41:49.4763 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-27 14:43:15.5350 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:43:15.5625 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:43:15.5775 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-27 14:46:35.9247 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-27 14:46:38.3358 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-27 14:46:38.3513 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-27 14:46:38.3513 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-27 14:46:38.3658 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-27 14:46:38.3658 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-27 14:46:39.2798 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-27 14:46:39.2858 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:46:40.5913 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:46:40.7834 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:46:40.7834 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:46:42.7780 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-27 14:46:42.7835 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-27 14:46:42.7835 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-27 14:46:42.7835 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-27 14:46:42.7981 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:46:42.7981 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:46:42.7981 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:46:42.9832 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:46:42.9882 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:46:43.3407 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:46:43.3452 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:46:43.3452 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:46:43.5259 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:46:43.5259 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:46:45.2190 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-27 14:51:17.6797 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:51:17.7087 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-27 14:51:17.7227 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-27 14:52:25.7718 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-27 14:52:29.3679 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-27 14:52:29.3824 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-27 14:52:29.3909 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-27 14:52:29.3909 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-27 14:52:29.3909 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-27 14:52:29.8714 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-27 14:52:30.0306 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:52:31.2963 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:52:31.4883 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:52:31.4883 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:52:32.6506 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-27 14:52:32.6506 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-27 14:52:32.6606 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-27 14:52:32.6606 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-27 14:52:32.6606 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:52:32.6746 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:52:32.6746 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:52:32.8597 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:52:32.8597 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:52:33.2156 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-27 14:52:33.2202 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-27 14:52:33.2202 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-27 14:52:33.4064 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-27 14:52:33.4064 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-27 14:52:34.5498 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-27 14:54:21.9256 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ProcessadorPassagemAprovadaParkHandler [Info] Json saida Ticket - 123 (aprovado): [{"TransacaoEstacionamento":{"Detalhes":[{"DataHoraPassagem":"2017-10-05T11:50:37Z","PistaId":2,"TransacaoEstacionamentoId":null,"SurrogateKey":0,"Id":null}],"ConveniadoId":476,"TagId":7581,"PistaId":8770,"PracaId":3676,"DataHoraTransacao":"2017-10-05T11:50:37Z","DataHoraEntrada":"2017-10-05T11:50:37Z","ValorDesconto":0.0,"MotivoDesconto":"0","TempoPermanencia":1,"SerieRPS":"","NumeroRPS":0,"MotivoAtrasoTransmissaoId":1,"TipoTransacaoEstacionamentoId":10,"DataReferencia":"2017-10-27T14:52:39.4416078-02:00","Ticket":"123","Mensalista":false,"ValorRepasse":0.0,"DataRepasse":"0001-01-01T00:00:00","TarifaDeInterconexao":0,"RepasseId":0,"SurrogateKey":0,"Credito":false,"Data":"2017-10-27T14:52:39.367069-02:00","StatusId":1,"Status":1,"TipoOperacaoId":14,"TipoOperacao":14,"AdesaoId":165508,"Valor":9.0,"Id":null},"PistaInformacoesRPS":{"ConveniadoInformacoesRPSId":300,"SerieRPS":"CN002","NumeroRPS":0,"PistaId":8770,"DataCriacao":"2017-08-01T14:26:30","Id":null},"ConveniadoInformacoesRPS":{"SerieRPS":"","NumeroRPS":0,"TipoRps":2,"Id":null}}] 

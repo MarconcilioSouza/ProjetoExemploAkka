@@ -1,0 +1,201 @@
+2017-10-09 16:51:27.5540 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-09 16:51:27.6130 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-09 16:52:16.1377 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-09 16:52:29.1197 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 2 mensagens... 
+2017-10-09 16:54:28.0817 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-09 16:54:28.0817 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-09 16:54:34.7248 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-09 16:54:34.7248 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:09:17.9718 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:09:18.1414 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:09:27.1858 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:39:17.2209 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 4 mensagens... 
+2017-10-11 09:39:43.5626 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 09:39:45.5208 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 09:39:48.3848 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:39:48.3848 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:51:40.4079 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:51:40.4309 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:51:40.4309 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:51:50.2865 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 4 mensagens... 
+2017-10-11 09:51:59.3560 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 09:51:59.3560 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 09:52:02.1823 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:52:02.1823 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:52:39.8813 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 09:52:42.0857 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 09:52:56.9243 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 09:52:56.9283 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 09:52:59.7997 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 09:52:59.7997 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 09:53:50.2319 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 09:54:15.2906 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 09:54:26.6129 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 09:54:31.7465 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:54:32.8481 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 09:54:33.8088 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 09:54:34.7239 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 09:54:45.1112 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 09:54:45.9481 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 09:54:46.6329 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 09:54:48.3351 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 09:54:49.4887 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 09:59:02.9100 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:59:02.9280 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 09:59:02.9280 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:00:09.0688 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 4 mensagens... 
+2017-10-11 10:00:17.7833 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:00:17.7833 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:00:17.7973 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:00:17.7973 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:00:17.8063 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:00:17.8063 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:00:17.8063 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:00:17.8063 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:00:17.8063 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:00:17.8063 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:00:25.7191 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:00:27.9407 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:00:27.9407 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:00:27.9869 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:00:30.6891 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:00:38.4571 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:00:39.9747 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:00:49.3333 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:00:50.0431 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:00:50.7911 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:00:51.6401 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:00:52.6830 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:30:05.9449 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:30:05.9740 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:30:05.9800 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:30:29.6864 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 10:30:34.2610 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:30:34.2610 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:30:34.2770 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:30:34.2770 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:30:34.2770 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:30:42.7232 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:31:26.9119 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:32:40.1980 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:34:25.7830 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:36:22.5031 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 10:38:42.0241 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 10:38:48.3577 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:38:48.4872 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:38:48.5843 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:38:48.5843 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:38:48.5843 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:39:20.3052 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 10:39:27.9444 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:39:27.9684 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:39:27.9684 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:39:27.9684 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:39:27.9684 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:44:54.6283 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:44:54.6463 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:44:54.6523 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 10:46:05.2871 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 10:46:18.0686 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 10:46:18.0816 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 10:46:18.0856 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 10:46:18.0856 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 10:46:18.0856 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 10:46:24.4845 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 11:02:39.6434 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:02:39.6995 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:02:39.6995 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:04:02.9871 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 11:04:46.1321 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 11:04:46.3498 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 11:04:46.6238 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 11:04:46.8098 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 11:04:47.0230 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 11:04:58.7985 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 11:32:47.4836 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:32:47.5507 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:32:47.5507 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:33:11.0693 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 11:33:43.0847 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 11:33:43.1028 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 11:33:43.1028 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 11:33:43.1028 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 11:33:43.1028 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 11:34:09.1488 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 11:36:40.2776 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:36:40.2976 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:36:40.3116 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:37:12.5517 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 11:37:17.9803 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 11:37:17.9933 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 11:37:17.9933 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 11:37:17.9933 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 11:37:17.9933 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 11:37:29.2216 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 11:37:44.5717 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-11 11:37:45.5453 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-11 11:37:46.4985 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-11 11:37:47.3536 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-11 11:37:48.6187 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-11 11:37:49.1508 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-11 11:37:49.8760 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-11 11:37:50.0148 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-11 11:37:50.0148 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-11 11:38:28.5200 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-11 11:38:31.1747 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-11 11:38:31.1757 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-11 11:38:32.2671 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-11 11:38:32.2671 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-11 11:39:36.1085 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-11 11:40:17.8198 ConectCar.Framework.Infrastructure.Cqrs.Ado.Queries.DbConnectionQueryBaseExtensions [Error] Must declare the scalar variable "@TempoPermanencia". System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@TempoPermanencia".
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   em Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   em ProcessadorPassagensActors.CommandQuery.Queries.ObterTransacaoEstacionamentoIdRepetidaQuery.Execute(ObterTransacaoEstacionamentoIdRepetidaFilter filter) na C:\TFS\transacoes\ProcessadorPassagensPendentesActor\CommandQuery\Queries\ObterTransacaoEstacionamentoIdRepetidaQuery.cs:linha 33
+   em ConectCar.Framework.Infrastructure.Cqrs.Ado.Queries.DbConnectionQueryBaseExtensions.Execute[TFilterArgs,TResult](DbConnectionQueryBase`2 query, TFilterArgs args, DbConnectionDataSource fallbackDataSource, Boolean testDataSourceHealthy, Int32 lagSeconds) na C:\TFS\ConectCar\ArquiteturaBase\ConectCar.Framework\ConectCar.Framework.Infrastructure.Cqrs.Ado\Queries\DbConnectionQueryBaseExtensions.cs:linha 121
+ClientConnectionId:c5bf990a-cc2e-4a04-a8c9-4915b71c2390
+Error Number:137,State:2,Class:15
+2017-10-11 11:40:34.7471 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-11 11:43:23.2103 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:43:23.2323 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:43:23.2485 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 11:44:04.6379 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Recebendo 1 mensagens... 
+2017-10-11 11:44:09.0585 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroConveniado 
+2017-10-11 11:44:09.0585 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroTag 
+2017-10-11 11:44:09.0585 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPraca 
+2017-10-11 11:44:09.0755 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarPossuiNumeroPista 
+2017-10-11 11:44:09.0755 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemPendenteParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemPendenteParkHandler | ValidarValor 
+2017-10-11 11:44:10.6395 ProcessadorPassagensActors.CommandQuery.Handlers.Park.GerarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: GerarPassagemParkHandler | Criando Passagem Completa. 
+2017-10-11 11:44:22.1391 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarConveniado 
+2017-10-11 11:44:22.1391 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarTag 
+2017-10-11 11:44:22.1391 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPraca 
+2017-10-11 11:44:22.1391 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarPista 
+2017-10-11 11:44:22.1391 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValidarDataTransacaoUltrapassaLimitePermitido 
+2017-10-11 11:44:22.1391 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-11 11:44:25.9123 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-11 11:44:26.5390 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-11 11:44:26.5390 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-11 11:44:29.1780 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemParkResponse | ValorTransacaoUltrapassaLimitePermitido 
+2017-10-11 11:44:29.1780 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-11 11:44:29.1780 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-11 11:44:29.3214 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-11 11:44:29.3214 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-11 11:44:38.7097 ProcessadorPassagensActors.CommandQuery.Handlers.Park.ValidarPassagemSistemaParkHandler [Info] Passagem Ticket: 123 - Fluxo: ValidarPassagemSistemaParkHandler | ValidarTransacaoRepetida 
+2017-10-11 12:53:47.8570 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 12:53:47.8750 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 
+2017-10-11 12:53:47.8750 ProcessadorPassagensActors.ActorsUtils.ActorLogger [Info] Iniciando sistema de atores... 

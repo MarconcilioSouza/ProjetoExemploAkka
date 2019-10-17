@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74DEDD24-F32F-4C9D-A54C-A26D987CFA87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcessadorPassagensActors.Infrastructure</RootNamespace>
+    <AssemblyName>ProcessadorPassagensActors.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Cadastros.Conveniados.Backend.CommonQuery, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Cadastros.Conveniados.Backend.CommonQuery.1.0.99\lib\ConectCar.Cadastros.Conveniados.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Cadastros.Domain, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Cadastros.Domain.1.0.99\lib\ConectCar.Cadastros.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.1.0.99\lib\ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Comercial.Domain, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Comercial.Domain.1.0.99\lib\ConectCar.Comercial.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Backend.CommonQuery, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Backend.CommonQuery.1.0.98\lib\ConectCar.Framework.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Domain, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Domain.1.0.6\lib\ConectCar.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Api, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Api.1.0.32\lib\ConectCar.Framework.Infrastructure.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cache.Redis, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cache.Redis.1.0.32\lib\ConectCar.Framework.Infrastructure.Cache.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Ado, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Ado.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Handlers, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Handlers.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Handlers.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Rest, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Rest.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.ServiceBus, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.ServiceBus.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Ado, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Ado.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.DocumentDB, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.DocumentDB.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.DocumentDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Rest, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Rest.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.ServiceBus, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.ServiceBus.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.TableDB, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.TableDB.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.TableDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ddd, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ddd.1.0.32\lib\ConectCar.Framework.Infrastructure.Ddd.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Errors, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Errors.1.0.32\lib\ConectCar.Framework.Infrastructure.Errors.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ioc, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ioc.1.0.32\lib\ConectCar.Framework.Infrastructure.Ioc.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ioc.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ioc.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Ioc.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Ioc.Validation, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Ioc.Validation.1.0.32\lib\ConectCar.Framework.Infrastructure.Ioc.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Json, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Json.1.0.32\lib\ConectCar.Framework.Infrastructure.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Log, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Log.1.0.32\lib\ConectCar.Framework.Infrastructure.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.WebApi, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.WebApi.1.0.32\lib\ConectCar.Framework.Infrastructure.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Transacoes.Domain, Version=1.1.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Transacoes.Domain.1.1.14\lib\ConectCar.Transacoes.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.SimpleCRUD, Version=1.13.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.SimpleCRUD.1.13.0\lib\net45\Dapper.SimpleCRUD.dll</HintPath>
+    </Reference>
+    <Reference Include="DryIoc, Version=2.11.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DryIoc.dll.2.11.6\lib\net45\DryIoc.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.1.0\lib\net40\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.7.1.1\lib\net45\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Jil, Version=2.15.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Jil.2.15.4\lib\net45\Jil.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sigil, Version=4.7.0.0, Culture=neutral, PublicKeyToken=2d06c3494341c8ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sigil.4.7.0\lib\net45\Sigil.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.1.2.5\lib\net46\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.3.1\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnumInfra.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Handlers\ActorHandlerBase.cs" />
+    <Compile Include="PoolRouterHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeHelper.cs" />
+    <Compile Include="TimeOutHelper.cs" />
+    <Compile Include="Util\ServiceBusUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

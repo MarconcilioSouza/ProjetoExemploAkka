@@ -1,0 +1,532 @@
+2017-10-24 11:43:32.4565 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-24 11:43:34.9443 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-24 11:43:36.2373 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-24 11:43:36.2573 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 11:43:36.3220 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 11:43:36.5206 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 11:43:36.5206 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 11:43:37.8116 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 11:43:37.8191 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 11:43:38.0157 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 11:43:38.0157 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 11:43:38.6522 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 11:43:38.6562 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 11:43:38.8340 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 11:43:38.8340 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 11:43:41.0346 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-24 11:43:42.7261 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemValePedagioEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemValePedagioEdiHandler | Validar validarValePedagioEdi 
+2017-10-24 11:43:48.9138 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 11:43:48.9138 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 11:43:49.1029 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 11:43:49.1029 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 11:43:49.4824 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 11:43:49.4904 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 11:43:49.6675 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 11:43:49.6755 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 11:44:44.9493 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 11:44:54.9439 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Json saida TRN - 70170525 (aprovado): [{"TransacaoPassagemEDI":{"DetalheTRNId":70170525,"EvasaoAceita":false,"OrigemTransacaoId":0,"DataDePassagem":"2017-10-24T10:27:07Z","ValorRepasse":22.8800000,"TarifaDeinterconexao":0.0000000,"PistaId":10,"CategoriaUtilizadaId":1,"RepasseId":152,"DataRepasse":"2017-12-08T00:00:00-02:00","ItemListaDeParaUtilizado":0,"Data":"2017-10-24T10:27:07Z","StatusId":1,"Id":0,"AdesaoId":2287369,"TipoOperacaoId":7,"Credito":false,"Valor":0.00,"SurroGateKey":70170525,"ChaveCriptografiaBanco":"b1b856cd!5ec1686139@384cb582be6f","SaldoId":13200219},"DetalheTRFRecusaEvasao":null,"TransacaoProvisoriaEDI":null,"DetalheTRFAprovadoManualmente":null,"Extrato":{"AdesaoId":2287369,"ChaveCriptografiaBanco":"b1b856cd!5ec1686139@384cb582be6f","DataTransacao":"2017-10-24T10:27:07Z","Descricao":"              ROTA DOS COQUEIROSItapuama as pistas automáticas sao exclusivas para veículos ","Id":0,"Placa":"AYM-5429","SubDescricao":"24-10-2017 10:27:07","SurrogateKey":70170525,"TipoOperacaoId":7,"TransacaoId":0,"ValorD":0.00},"EventoPrimeiraPassagemManual":null,"ConfiguracaoAdesao":{"Id":2293889,"CategoriaId":1},"DivergenciaCategoriaConfirmada":null,"Veiculo":{"Id":1097417,"Placa":"AYM-5429","CategoriaConfirmada":false,"CategoriaVeiculoId":1,"ContagemConfirmacaoCategoria":1,"ContagemDivergenciaCategoriaConfirmada":0,"DataConfirmacaoCategoria":null},"Viagens":[]}] 
+2017-10-24 11:44:57.3936 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] DetalheTrn ID: 70170525 | Detalhe Processado. 
+2017-10-24 12:03:56.2587 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 12:03:56.3798 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 12:04:03.0145 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-24 12:04:06.5926 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 12:04:06.6086 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-24 12:04:09.1734 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-24 12:04:09.1734 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-24 12:04:09.2054 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-24 12:04:09.2054 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-24 12:04:09.2234 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-24 12:04:09.2234 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-24 12:04:09.2389 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-24 12:04:11.9704 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 12:04:13.2419 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170525 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-24 12:04:13.5300 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:14.7787 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:15.1560 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:15.1560 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:15.4103 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:15.4103 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:15.4268 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_100_pista7_pista2. 
+2017-10-24 12:04:15.4103 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 12:04:17.0505 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:17.0505 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:17.2552 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:17.2552 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 12:04:17.4628 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170525 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-24 12:04:17.4798 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:17.4848 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:17.6640 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:17.6730 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 12:04:18.2909 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-24 12:04:18.2909 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-24 12:04:18.3039 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-24 12:04:18.3130 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-24 12:04:18.3130 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-24 12:04:18.3130 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-24 12:04:20.3378 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | HorarioDePassagemEIncompativel 
+2017-10-24 12:04:20.3458 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:20.3458 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:20.5310 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:20.5380 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 12:04:21.5048 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | PassagemEvasiva 
+2017-10-24 12:04:21.5683 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-24 12:04:25.7966 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-24 12:04:26.9425 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-24 12:04:26.9655 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:26.9735 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:27.1676 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:27.1756 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 12:04:28.3541 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:28.3611 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:28.5572 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:28.5647 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 12:04:29.1481 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:29.1481 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:29.3303 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:29.3303 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 12:04:31.5494 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-24 12:04:32.8954 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemValePedagioEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemValePedagioEdiHandler | Validar validarValePedagioEdi 
+2017-10-24 12:04:37.9558 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:37.9558 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:38.1410 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:38.1465 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 12:04:38.5012 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:04:38.5012 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:04:38.6818 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:04:38.6888 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 12:04:50.0336 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 12:05:50.9922 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Json saida TRN - 70170525 (aprovado): [{"TransacaoPassagemEDI":{"DetalheTRNId":70170525,"EvasaoAceita":false,"TransacaoDeCorrecaoId":143281509,"OrigemTransacaoId":0,"DataDePassagem":"2017-10-24T10:27:07Z","ValorRepasse":22.8800000,"TarifaDeinterconexao":0.0000000,"PistaId":10,"CategoriaUtilizadaId":1,"RepasseId":152,"DataRepasse":"2017-12-08T00:00:00-02:00","ItemListaDeParaUtilizado":0,"Data":"2017-10-24T10:27:07Z","StatusId":1,"Id":0,"AdesaoId":2287369,"TipoOperacaoId":7,"Credito":false,"Valor":0.00,"SurroGateKey":70170525,"ChaveCriptografiaBanco":"b1b856cd!5ec1686139@384cb582be6f","SaldoId":13200219},"DetalheTRFRecusaEvasao":null,"TransacaoProvisoriaEDI":null,"DetalheTRFAprovadoManualmente":null,"Extrato":{"AdesaoId":2287369,"ChaveCriptografiaBanco":"b1b856cd!5ec1686139@384cb582be6f","DataTransacao":"2017-10-24T10:27:07Z","Descricao":"              ROTA DOS COQUEIROSItapuama as pistas automáticas sao exclusivas para veículos ","Id":0,"Placa":"AYM-5429","SubDescricao":"24-10-2017 10:27:07","SurrogateKey":70170525,"TipoOperacaoId":7,"TransacaoId":0,"ValorD":0.00},"EventoPrimeiraPassagemManual":null,"ConfiguracaoAdesao":{"Id":2293889,"CategoriaId":1},"DivergenciaCategoriaConfirmada":null,"Veiculo":{"Id":1097417,"Placa":"AYM-5429","CategoriaConfirmada":false,"CategoriaVeiculoId":1,"ContagemConfirmacaoCategoria":1,"ContagemDivergenciaCategoriaConfirmada":0,"DataConfirmacaoCategoria":null},"Viagens":[]}] 
+2017-10-24 12:05:52.1334 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] DetalheTrn ID: 70170525 | Detalhe Processado. 
+2017-10-24 12:09:05.6759 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-24 12:09:07.1900 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 12:09:08.0011 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-24 12:09:08.8393 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-24 12:09:08.8393 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-24 12:09:08.8393 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-24 12:09:08.8573 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-24 12:09:08.8573 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-24 12:09:08.8683 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-24 12:09:08.8683 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-24 12:09:09.8659 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 12:09:10.8168 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170525 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-24 12:09:11.0209 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:11.0329 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:11.2141 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:09:11.2141 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_100_pista7_pista2. 
+2017-10-24 12:09:11.4027 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:11.4027 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:11.5853 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Nao ha informaçoes em cache. Obtendo informaçoes da base de dados de origem do cache. 
+2017-10-24 12:09:12.3215 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Salvando informaçoes no cache. 
+2017-10-24 12:09:12.3215 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Salvando informaçoes no cache CategoriaVeiculoCacheKey. 
+2017-10-24 12:09:12.5452 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170525 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-24 12:09:12.5452 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:12.5562 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:12.7398 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:09:12.7473 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 12:09:13.2807 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-24 12:09:13.2807 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-24 12:09:13.2907 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-24 12:09:13.2907 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-24 12:09:13.2907 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-24 12:09:13.3127 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-24 12:09:14.7187 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | HorarioDePassagemEIncompativel 
+2017-10-24 12:09:14.7287 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:14.7287 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:14.9129 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:09:14.9179 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 12:09:15.6724 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | PassagemEvasiva 
+2017-10-24 12:09:15.6724 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-24 12:09:16.0617 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-24 12:09:16.7570 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-24 12:09:16.7730 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:16.7810 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:16.9597 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Nao ha informaçoes em cache. Obtendo informaçoes da base de dados de origem do cache. 
+2017-10-24 12:09:16.9777 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Salvando a base de dados de origem. 
+2017-10-24 12:09:16.9777 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Verificando se a base de dados de origem está confiável. 
+2017-10-24 12:09:17.2819 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Base de dados de origem está confiável. Iniciando execuçao da consulta. 
+2017-10-24 12:09:17.6497 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Salvando informaçoes no cache. 
+2017-10-24 12:09:17.6497 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Salvando informaçoes no cache ConcessionariaCacheKey. 
+2017-10-24 12:09:18.4459 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:18.4459 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:18.6262 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Nao ha informaçoes em cache. Obtendo informaçoes da base de dados de origem do cache. 
+2017-10-24 12:09:18.6262 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Salvando a base de dados de origem. 
+2017-10-24 12:09:18.6382 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Verificando se a base de dados de origem está confiável. 
+2017-10-24 12:09:18.8449 ConectCar.Framework.Infrastructure.Cqrs.Queries.QueryBaseExtensions [Debug] Base de dados de origem está confiável. Iniciando execuçao da consulta. 
+2017-10-24 12:09:19.0411 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Salvando informaçoes no cache. 
+2017-10-24 12:09:19.0411 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Salvando informaçoes no cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 12:09:19.4307 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:09:19.4307 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:09:19.6148 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:09:19.6218 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 12:09:22.0122 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170525 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-24 12:09:26.6624 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemValePedagioEdiHandler [Info] Passagem DetalheTrnId: 70170525 - Fluxo: ValidadorPassagemValePedagioEdiHandler | Validar validarValePedagioEdi 
+2017-10-24 12:10:53.5385 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:10:53.5475 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:10:53.7287 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:10:53.7347 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 12:10:53.9448 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 12:10:53.9548 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 12:10:54.1320 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 12:10:54.1390 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 12:10:58.4227 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Passagem DetalheTrnId: 70170525 Data Passagem 24-10-2017 10:27:07 
+2017-10-24 12:11:05.1279 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Json saida TRN - 70170525 (aprovado): [{"TransacaoPassagemEDI":{"DetalheTRNId":70170525,"EvasaoAceita":false,"TransacaoDeCorrecaoId":143281509,"OrigemTransacaoId":0,"DataDePassagem":"2017-10-24T10:27:07Z","ValorRepasse":22.8800000,"TarifaDeinterconexao":0.0000000,"PistaId":10,"CategoriaUtilizadaId":1,"RepasseId":152,"DataRepasse":"2017-12-08T00:00:00-02:00","ItemListaDeParaUtilizado":0,"Data":"2017-10-24T10:27:07Z","StatusId":1,"Id":0,"AdesaoId":2287369,"TipoOperacaoId":7,"Credito":false,"Valor":0.00,"SurroGateKey":70170525,"ChaveCriptografiaBanco":"b1b856cd!5ec1686139@384cb582be6f","SaldoId":13200219},"DetalheTRFRecusaEvasao":null,"TransacaoProvisoriaEDI":null,"DetalheTRFAprovadoManualmente":null,"Extrato":{"AdesaoId":2287369,"ChaveCriptografiaBanco":"b1b856cd!5ec1686139@384cb582be6f","DataTransacao":"2017-10-24T10:27:07Z","Descricao":"              ROTA DOS COQUEIROSItapuama as pistas automáticas sao exclusivas para veículos ","Id":0,"Placa":"AYM-5429","SubDescricao":"24-10-2017 10:27:07","SurrogateKey":70170525,"TipoOperacaoId":7,"TransacaoId":0,"ValorD":0.00},"EventoPrimeiraPassagemManual":null,"ConfiguracaoAdesao":{"Id":2293889,"CategoriaId":1},"DivergenciaCategoriaConfirmada":null,"Veiculo":{"Id":1097417,"Placa":"AYM-5429","CategoriaConfirmada":false,"CategoriaVeiculoId":1,"ContagemConfirmacaoCategoria":1,"ContagemDivergenciaCategoriaConfirmada":0,"DataConfirmacaoCategoria":null},"Viagens":[]}] 
+2017-10-24 12:11:05.2570 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] DetalheTrn ID: 70170525 | Detalhe Processado. 
+2017-10-24 14:40:43.8035 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 14:40:43.8646 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 14:41:00.1325 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-24 14:41:25.5825 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170527 Data Passagem 24-10-2017 05:30:00 
+2017-10-24 14:41:25.6085 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-24 14:41:28.5600 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-24 14:41:28.5820 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-24 14:41:28.6001 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-24 14:41:28.6097 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-24 14:41:28.6233 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-24 14:41:28.6233 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-24 14:41:28.6538 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-24 14:41:30.5025 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 Data Passagem 24-10-2017 05:30:00 
+2017-10-24 14:41:32.4440 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170527 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-24 14:41:32.5711 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:41:34.9197 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:41:35.1238 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:41:35.1238 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:41:46.5844 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:41:46.5969 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:41:46.7981 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:41:46.7981 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_259_pista4_pista123. 
+2017-10-24 14:41:47.1769 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:41:47.1769 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:41:47.3740 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:41:47.3740 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 14:41:47.6042 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170527 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-24 14:41:47.6162 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:41:47.6162 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:41:47.7979 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:41:47.7979 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 14:41:48.3660 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-24 14:41:48.3660 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-24 14:41:48.3790 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-24 14:41:48.3790 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-24 14:41:48.3910 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-24 14:41:48.3910 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-24 14:41:54.7298 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | HorarioDePassagemEIncompativel 
+2017-10-24 14:41:54.7373 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:41:54.7373 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:41:54.9239 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:41:54.9239 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:42:15.7735 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | PassagemEvasiva 
+2017-10-24 14:43:10.2911 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-24 14:43:10.7639 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-24 14:43:12.4843 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-24 14:43:12.5033 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:43:12.5033 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:43:12.7025 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:12.7090 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 14:43:19.0227 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:43:19.0227 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:43:19.2198 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:19.2198 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 14:43:19.9685 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:43:19.9685 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:43:20.1616 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:20.1616 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:43:22.7784 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170527 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-24 14:43:22.7989 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:43:22.7989 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:43:23.0115 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:23.0185 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:43:23.7204 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:23.7204 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:43:26.5208 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemValePedagioEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemValePedagioEdiHandler | Validar validarValePedagioEdi 
+2017-10-24 14:43:43.4937 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:43:43.4937 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:43:43.6908 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:43.6908 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 14:43:47.8308 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:43:47.8308 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:43:48.0180 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:43:48.0180 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 14:45:16.5221 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Passagem DetalheTrnId: 70170527 Data Passagem 24-10-2017 05:30:00 
+2017-10-24 14:58:14.3328 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 14:58:14.4114 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 14:58:23.9147 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-24 14:58:29.5393 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170527 Data Passagem 24-10-2017 05:30:00 
+2017-10-24 14:58:29.5533 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-24 14:58:31.0899 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-24 14:58:31.0899 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-24 14:58:31.1109 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-24 14:58:31.1229 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-24 14:58:31.1419 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-24 14:58:31.1574 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-24 14:58:31.1749 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-24 14:58:32.3408 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 Data Passagem 24-10-2017 05:30:00 
+2017-10-24 14:58:33.6137 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170527 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-24 14:58:33.7143 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:34.9057 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:35.2731 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:35.2731 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:35.4937 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:35.4973 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:35.4973 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_259_pista4_pista123. 
+2017-10-24 14:58:35.4973 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:58:36.4431 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:36.4671 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:36.6558 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:36.6558 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 14:58:36.8657 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170527 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-24 14:58:36.8857 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:36.8857 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:37.0665 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:37.0745 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 14:58:37.6830 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-24 14:58:37.6830 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-24 14:58:37.6830 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-24 14:58:37.7025 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-24 14:58:37.7025 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-24 14:58:37.7130 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-24 14:58:47.2105 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | PassagemEvasiva 
+2017-10-24 14:58:52.7442 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-24 14:58:53.1585 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-24 14:58:55.2647 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-24 14:58:55.2828 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:55.2828 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:55.5244 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:55.5329 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 14:58:56.7243 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:56.7298 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:56.9169 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:56.9169 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 14:58:57.5699 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:58:57.5779 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:58:57.7557 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:58:57.7617 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:59:04.5268 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170527 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-24 14:59:04.5553 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:59:04.5623 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:59:04.7384 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:59:04.7384 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:59:05.1047 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:59:05.1047 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 14:59:08.6587 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemValePedagioEdiHandler [Info] Passagem DetalheTrnId: 70170527 - Fluxo: ValidadorPassagemValePedagioEdiHandler | Validar validarValePedagioEdi 
+2017-10-24 14:59:13.2890 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:59:13.2945 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:59:13.4701 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:59:13.4701 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 14:59:13.8364 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 14:59:13.8444 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 14:59:14.0205 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 14:59:14.0205 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 14:59:29.6650 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ProcessadorPassagemAprovadaEdiHandler [Info] Passagem DetalheTrnId: 70170527 Data Passagem 24-10-2017 05:30:00 
+2017-10-24 16:29:01.6472 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 16:29:01.7913 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-24 16:29:04.5744 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-24 16:30:08.3921 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170406 Data Passagem 19-10-2017 17:30:00 
+2017-10-24 16:30:08.5338 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-24 16:30:11.4586 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-24 16:30:11.5773 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-24 16:30:11.6078 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-24 16:30:11.6078 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-24 16:30:11.6358 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-24 16:30:11.6589 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-24 16:30:11.6894 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-24 16:30:13.0825 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 Data Passagem 19-10-2017 17:30:00 
+2017-10-24 16:30:15.0118 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170406 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-24 16:30:15.7689 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:17.2799 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:17.3659 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:17.3719 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:17.4806 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:17.4886 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 16:30:17.5698 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:17.5748 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_259_pista4_pista123. 
+2017-10-24 16:30:18.7297 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:18.7373 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:18.9384 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:18.9514 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 16:30:19.1521 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170406 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-24 16:30:19.1702 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:19.1922 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:19.4053 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:19.4253 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-24 16:30:20.0324 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-24 16:30:20.0324 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-24 16:30:20.0470 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-24 16:30:20.0470 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-24 16:30:20.0622 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-24 16:30:20.0622 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-24 16:30:22.5420 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | HorarioDePassagemEIncompativel 
+2017-10-24 16:30:22.5495 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:22.5495 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:22.7347 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:22.7347 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 16:30:24.3463 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | PassagemEvasiva 
+2017-10-24 16:30:29.1269 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-24 16:30:29.5922 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-24 16:30:32.1621 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-24 16:30:32.1851 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:32.1851 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:32.3874 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:32.3874 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 16:30:33.6512 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:33.6582 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:33.8515 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:33.8590 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-24 16:30:34.6045 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:34.6125 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:34.7903 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:34.7983 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 16:30:37.6305 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170406 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-24 16:30:37.6586 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:30:37.6586 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:30:37.8438 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:37.8438 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 16:30:38.2202 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:30:38.2202 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-24 16:30:46.5385 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemValePedagioEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemValePedagioEdiHandler | Validar validarValePedagioEdi 
+2017-10-24 16:31:00.8345 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:31:00.8345 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:31:01.0177 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:31:01.0177 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-24 16:31:01.3802 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-24 16:31:01.3802 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-24 16:31:01.5643 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-24 16:31:01.5643 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-25 11:16:52.9016 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-25 11:16:53.0652 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-25 12:09:58.4161 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-25 12:10:12.0452 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170427 Data Passagem 20-10-2017 07:36:00 
+2017-10-25 12:10:12.1798 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-25 12:10:19.4088 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-25 12:10:19.5494 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-25 12:10:19.5554 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-25 12:10:19.5554 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-25 12:10:19.5764 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-25 12:10:19.5764 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-25 12:10:19.6200 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-25 12:10:25.2152 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 Data Passagem 20-10-2017 07:36:00 
+2017-10-25 12:10:33.9969 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170427 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-25 12:10:34.5738 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:10:36.1546 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:10:36.4008 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:10:36.4008 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:10:36.7508 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:10:36.7508 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:10:37.1161 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:10:37.1251 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_259_pista4_pista123. 
+2017-10-25 12:10:37.7302 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:10:37.7302 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:10:37.9435 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Nao ha informaçoes em cache. Obtendo informaçoes da base de dados de origem do cache. 
+2017-10-25 12:10:38.6367 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Salvando informaçoes no cache. 
+2017-10-25 12:10:38.6607 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Salvando informaçoes no cache CategoriaVeiculoCacheKey. 
+2017-10-25 12:10:39.1091 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170427 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-25 12:10:39.1252 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:10:39.1252 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:10:39.3073 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:10:39.3073 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-25 12:10:40.0004 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-25 12:10:40.0004 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-25 12:10:40.0134 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-25 12:10:40.0134 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-25 12:10:40.0134 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-25 12:10:40.0300 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170427 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-25 12:11:02.1429 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170427 - Fluxo: ValidadorPassagemSistemaEdiHandler | HorarioDePassagemEIncompativel 
+2017-10-25 12:11:03.6346 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:11:03.6421 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:11:03.8202 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:11:03.8258 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:22:51.6447 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-25 12:22:51.7567 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-25 12:23:01.6361 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-25 12:23:18.4161 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170406 Data Passagem 19-10-2017 17:30:00 
+2017-10-25 12:23:18.4942 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-25 12:23:20.2374 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-25 12:23:20.2604 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-25 12:23:20.2684 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-25 12:23:20.2819 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-25 12:23:20.2819 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-25 12:23:20.3011 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-25 12:23:20.3011 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-25 12:23:21.5199 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 Data Passagem 19-10-2017 17:30:00 
+2017-10-25 12:23:25.0468 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170406 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-25 12:23:25.9371 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:26.6532 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:27.3825 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:27.3825 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:27.5811 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:27.5811 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:23:27.5811 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:27.6052 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_259_pista4_pista123. 
+2017-10-25 12:23:29.0605 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:29.0695 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:29.2652 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:29.2652 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-25 12:23:29.4797 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170406 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-25 12:23:29.4962 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:29.5012 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:29.6798 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:29.6868 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-25 12:23:30.3225 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 
+2017-10-25 12:23:30.3275 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarEmissorTagId 
+2017-10-25 12:23:30.3275 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarCategoria 
+2017-10-25 12:23:30.3275 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTag 
+2017-10-25 12:23:30.3465 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarAdesao 
+2017-10-25 12:23:30.3465 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarPistaPraca 
+2017-10-25 12:23:32.4758 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | HorarioDePassagemEIncompativel 
+2017-10-25 12:23:32.4858 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:32.4858 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:32.6742 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:32.6742 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:23:34.0347 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem ID: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | PassagemEvasiva 
+2017-10-25 12:23:38.0901 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | TransacaoConfirmacaoValidator 
+2017-10-25 12:23:38.5144 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemSistemaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorPassagemSistemaEdiHandler | PrimeiraPassagemManualValidator 
+2017-10-25 12:23:40.7795 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorSlaListaNelaEdiHandler [Info] Passagem DetalheTrnId: 70170406 - Fluxo: ValidadorSlaListaNelaEdiHandler | Validar SlaListaNelaEdiValidator 
+2017-10-25 12:23:40.7955 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:40.8030 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:40.9921 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterConcessionariasQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:40.9996 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ConcessionariaCacheDataSource [Debug] Obtendo informaçoes do cache ConcessionariaCacheKey. 
+2017-10-25 12:23:42.0904 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:42.0954 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:42.2916 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterParceiroNegocioQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:42.2966 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.ParceiroNegocioCacheDataSource [Debug] Obtendo informaçoes do cache ParceiroNegocioCacheDataSource_1. 
+2017-10-25 12:23:43.1633 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:43.2174 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:43.3955 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:43.3955 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:23:51.1690 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorDivergenciaCategoriaEdiHandler [Info] Passagem ID: 70170406 - Fluxo: CategoriaVeiculoValidator | CategoriaVeiculo 
+2017-10-25 12:23:57.0691 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:23:57.0691 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:23:57.8294 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:57.8294 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:23:58.7598 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:23:58.7598 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:26:54.0002 ProcessadorPassagensActors.Actors.Artesp.TransacaoArtespActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-25 12:26:54.0703 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Iniciando sistema de atores... 
+2017-10-25 12:27:10.8913 ProcessadorPassagensActors.Actors.Edi.TransacaoEdiActorSystem [Debug] Recebendo 1 mensagens... 
+2017-10-25 12:27:13.1837 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170562 Data Passagem 24-10-2017 17:41:00 
+2017-10-25 12:27:13.1937 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.IdentificadorPassagemDuplicadaEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: IdentificadorPassagemDuplicadaEdiHandler | Validar DetalheRepetido 
+2017-10-25 12:27:17.8335 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarArquivoNulo 
+2017-10-25 12:27:17.8565 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrn 
+2017-10-25 12:27:17.8775 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiArquivoTrf 
+2017-10-25 12:27:17.8895 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPossuiNumeroTag 
+2017-10-25 12:27:17.8985 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemManualComNumeroTagInvalida 
+2017-10-25 12:27:17.9205 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar ValidarPassagemListaNela 
+2017-10-25 12:27:17.9396 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemPendenteEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemPendenteEdiHandler | Validar PassagemValorZerado 
+2017-10-25 12:27:19.1763 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170562 Data Passagem 24-10-2017 17:41:00 
+2017-10-25 12:27:20.5373 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170562 - Fluxo: GeradorPassagemEdiHandler | Criando Passagem Completa. 
+2017-10-25 12:27:20.9839 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:27:22.2253 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:27:22.5078 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:27:22.5078 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:27:22.7160 ConectCar.Framework.Backend.CommonQuery.Query.ObterConfiguracaoSistemaQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:27:22.7160 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Query.ObterPistaPracaConveniadoEDIQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:27:22.7240 ConectCar.Cadastros.Conveniados.Backend.CommonQuery.Cache.PistaPracaConveniadoArtespCacheDataSource [Debug] Obtendo informaçoes do cache PistaPracaConveniadoArtespCache_259_pista4_pista123. 
+2017-10-25 12:27:22.7240 ConectCar.Framework.Backend.CommonQuery.Cache.ConfiguracaoSistemaCacheDataSource [Debug] Obtendo informaçoes do cache ConfiguracaoSistemaCacheKey. 
+2017-10-25 12:27:23.6086 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:27:23.6757 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:27:23.8983 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:27:23.8983 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-25 12:27:24.1275 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.GeradorPassagemEdiHandler [Debug] Passagem DetalheTrnId: 70170562 - Fluxo: GeradorPassagemEdiHandler | DefinirCategoriaUtilizada 
+2017-10-25 12:27:24.1390 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Iniciando a conexao com o servidor de cache. 
+2017-10-25 12:27:24.1390 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Finalizando a conexao com o servidor de cache. 
+2017-10-25 12:27:24.3431 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Query.ObterCategoriaVeiculoQuery [Debug] Obtendo informaçoes do cache. 
+2017-10-25 12:27:24.3431 ConectCar.Comercial.Cliente.Adesao.Backend.CommonQuery.Cache.CategoriaVeiculoCacheDataSource [Debug] Obtendo informaçoes do cache CategoriaVeiculoCacheKey. 
+2017-10-25 12:27:24.9676 ProcessadorPassagensActors.CommandQuery.Handlers.Edi.ValidadorPassagemEdiHandler [Info] Passagem DetalheTrnId: 70170562 - Fluxo: ValidadorPassagemEdiHandler | Validar ValidarTempoSlaEnvioPassagem 

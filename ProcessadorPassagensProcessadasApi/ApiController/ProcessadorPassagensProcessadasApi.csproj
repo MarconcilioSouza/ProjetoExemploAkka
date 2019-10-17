@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EE1F77D-EFC8-456E-913B-8CFAE9BBBCD3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcessadorPassagensProcessadasApi</RootNamespace>
+    <AssemblyName>ProcessadorPassagensProcessadasApi</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <AppCfgType>Web</AppCfgType>
+    <InlineAppCfgTransforms>true</InlineAppCfgTransforms>
+    <ConfigDir>App_Config</ConfigDir>
+    <AppConfigBaseFilePath Condition="Exists('$(MSBuildProjectDirectory)\App.config')">App.config</AppConfigBaseFilePath>
+    <AppConfigBaseFilePath Condition="Exists('$(MSBuildProjectDirectory)\Web.config')">Web.config</AppConfigBaseFilePath>
+    <AppConfigBaseFilePath Condition="'$(InlineAppCfgTransforms)' == 'true'">$(ConfigDir)\$(AppCfgType).Base.config</AppConfigBaseFilePath>
+    <AppConfigBaseFileFullPath>$(MSBuildProjectDirectory)\$(AppConfigBaseFilePath)</AppConfigBaseFileFullPath>
+    <BuildTimeAppCfgTransformsEnabled>true</BuildTimeAppCfgTransformsEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.NLog41, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.NLog41.3.4.1\lib\net40\Common.Logging.NLog41.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Cadastros.Conveniados.Backend.CommonQuery, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Cadastros.Conveniados.Backend.CommonQuery.1.0.99\lib\ConectCar.Cadastros.Conveniados.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Cadastros.Domain, Version=1.0.99.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Cadastros.Domain.1.0.99\lib\ConectCar.Cadastros.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Backend.CommonQuery, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Backend.CommonQuery.1.0.98\lib\ConectCar.Framework.Backend.CommonQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Domain, Version=1.0.98.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Domain.1.0.98\lib\ConectCar.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Api, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Api.1.0.32\lib\ConectCar.Framework.Infrastructure.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cache.Redis, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cache.Redis.1.0.32\lib\ConectCar.Framework.Infrastructure.Cache.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Ado, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Ado.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Handlers, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Handlers.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Handlers.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.Rest, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.Rest.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Cqrs.ServiceBus, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Cqrs.ServiceBus.1.0.32\lib\ConectCar.Framework.Infrastructure.Cqrs.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Ado, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Ado.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Ado.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Cache, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Cache.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.DocumentDB, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.DocumentDB.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.DocumentDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.Rest, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.Rest.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.ServiceBus, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.ServiceBus.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Data.TableDB, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Data.TableDB.1.0.32\lib\ConectCar.Framework.Infrastructure.Data.TableDB.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Errors, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Errors.1.0.32\lib\ConectCar.Framework.Infrastructure.Errors.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Json, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Json.1.0.32\lib\ConectCar.Framework.Infrastructure.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Log, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Log.1.0.32\lib\ConectCar.Framework.Infrastructure.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.Transactions, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.Transactions.1.0.32\lib\ConectCar.Framework.Infrastructure.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Framework.Infrastructure.WebApi, Version=1.0.32.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Framework.Infrastructure.WebApi.1.0.32\lib\ConectCar.Framework.Infrastructure.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="ConectCar.Transacoes.Domain, Version=1.1.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConectCar.Transacoes.Domain.1.1.14\lib\ConectCar.Transacoes.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper.SimpleCRUD, Version=1.13.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.SimpleCRUD.1.13.0\lib\net45\Dapper.SimpleCRUD.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.1.0\lib\net40\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="Jil, Version=2.15.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Jil.2.15.4\lib\net45\Jil.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.4.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.4.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.4.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.4.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.4.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.4.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.NLogTarget, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.NLogTarget.2.4.1\lib\net45\Microsoft.ApplicationInsights.NLogTarget.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.2.0.2\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.3.8\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Sigil, Version=4.7.0.0, Culture=neutral, PublicKeyToken=2d06c3494341c8ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sigil.4.7.0\lib\net45\Sigil.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.1.2.5\lib\net46\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="App_Config\Web.Base.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\PassagensArtespController.cs" />
+    <Compile Include="Controllers\PassagensEdiController.cs" />
+    <Compile Include="Controllers\PassagensParkController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Logger\Logger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\ProcPassagensProcessadasAPI-QA-Phx3 - Web Deploy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="App_Config\Web.Release.config">
+      <DependentUpon>Web.Base.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <ProjectReference Include="..\CommandQuery\ProcessadorPassagensProcessadasApi.CommandQuery.csproj">
+      <Project>{f7c7704f-7d1d-4ea0-bf81-50099049ff4e}</Project>
+      <Name>ProcessadorPassagensProcessadasApi.CommandQuery</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55369</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55369/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <Target Name="TransformOnBuild" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <outputTypeExtension Condition="'$(OutputType)' == 'exe' or '$(OutputType)' == 'winexe'">exe</outputTypeExtension>
+      <outputTypeExtension Condition="'$(OutputType)' == 'Library'">dll</outputTypeExtension>
+    </PropertyGroup>
+    <TransformXml Condition="'$(AppCfgType)' == 'Web' and Exists('$(ConfigDir)\Web.Base.config') and Exists('$(ConfigDir)\Web.$(Configuration).config')" Source="$(ConfigDir)\Web.Base.config" Transform="$(ConfigDir)\Web.$(Configuration).config" Destination="Web.config" />
+    <TransformXml Condition="'$(AppCfgType)' == 'App' and $(InlineAppCfgTransforms) == true and Exists('$(ConfigDir)\App.Base.config') and Exists('$(ConfigDir)\App.$(Configuration).config')" Source="$(ConfigDir)\App.Base.config" Transform="$(ConfigDir)\App.$(Configuration).config" Destination="App.config" />
+    <MakeDir Condition="'$(AppCfgType)' == 'App' and $(InlineAppCfgTransforms) != true and Exists('App.config') and !Exists('$(OutDir)')" Directories="$(OutDir)" />
+    <TransformXml Condition="'$(AppCfgType)' == 'App' and $(InlineAppCfgTransforms) != true and Exists('App.config') and Exists('App.$(Configuration).config')" Source="App.config" Transform="App.$(Configuration).config" Destination="$(OutDir)$(AssemblyName).$(outputTypeExtension).config" />
+    <Copy Condition="'$(AppCfgType)' == 'Web' and Exists('$(ConfigDir)\Web.Base.config') and !Exists('$(ConfigDir)\Web.$(Configuration).config')" SourceFiles="$(ConfigDir)\Web.Base.config" DestinationFiles="Web.config" />
+    <Copy Condition="'$(AppCfgType)' == 'App' and $(InlineAppCfgTransforms) == true and Exists('$(ConfigDir)\App.Base.config') and !Exists('$(ConfigDir)\App.$(Configuration).config')" SourceFiles="$(ConfigDir)\App.Base.config" DestinationFiles="App.config" />
+    <Copy Condition="'$(AppCfgType)' == 'App' and $(InlineAppCfgTransforms) != true and Exists('App.config') and !Exists('App.$(Configuration).config')" SourceFiles="App.config" DestinationFiles="$(OutDir)$(AssemblyName).$(outputTypeExtension).config" />
+  </Target>
+</Project>
